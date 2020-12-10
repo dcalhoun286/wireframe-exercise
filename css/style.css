@@ -1,3 +1,9 @@
 body {
   background-color: rgb(247, 247, 169);
 }
+
+header, footer {
+  color: rgb(207, 207, 207);
+  background-color: #333;
+}
+
