@@ -1,9 +1,26 @@
 body {
   background-color: rgb(247, 247, 169);
+  margin: auto;
 }
 
 header, footer {
   color: rgb(207, 207, 207);
   background-color: #333;
+  height: 100px;
+}
+
+nav a:first-child {
+  margin-left: 100px;
+}
+
+nav a:link {
+  font-family: Arial, Helvetica, sans-serif;
+   color: rgb(207, 207, 207);
+  text-decoration: none;
+}
+
+section article {
+  width: 480px;
+  float: right; 
 }
 
