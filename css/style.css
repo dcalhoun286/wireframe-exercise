@@ -1,26 +1,111 @@
+/* entire document */
 body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(247, 247, 169);
   margin: auto;
 }
 
-header, footer {
+header {
   color: rgb(207, 207, 207);
   background-color: #333;
-  height: 100px;
 }
 
-nav a:first-child {
+header img {
+  float: left;
+  margin-top: 15px;
+}
+
+header nav {
+  width: 960px;
+  height: 100px;
+  margin: auto;
+}
+
+nav a {
+  width: 190px;
+  line-height: 70px;
+  text-decoration: none;
+  color: rgb(207 207 207);
+}
+
+nav > a:not(first-child) {
+  position: relative;
+}
+
+nav span {
   margin-left: 100px;
 }
 
-nav a:link {
-  font-family: Arial, Helvetica, sans-serif;
-   color: rgb(207, 207, 207);
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main img {
+  margin-top: 30px;
+}
+main > section:nth-child(2) {
+  width: 960px;
+  height: 375px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+main section:nth-child(2) img {
+  display: inline-block;
+  margin: auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+main section {
+  float: left;
+}
+section article {
+  width: 50%;
+  float: right; 
+  margin-top: 30px;
+  height: 400px;
+}
+
+main h3 {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+section article p {
+  height: 300px;
+  font-style: italic;
+  overflow: auto;
+  margin-top: 5px;
+}
+
+section div {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+article div {
+  background-color: #111;
+  transition: 300ms;
+}
+
+article div a {
+  color: rgb(207, 207, 207);
   text-decoration: none;
 }
 
-section article {
-  width: 480px;
-  float: right; 
+article div:hover {
+  background-color: red;
+}
+
+
+footer {
+  height: 170px;
+  color: #333;
 }
 
